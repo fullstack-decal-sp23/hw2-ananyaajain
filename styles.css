@@ -59,7 +59,15 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
-
+.red { 
+  background-color: #EA141D;
+}
+div #white {
+  background-color: white;
+}
+.light-blue {
+  background-color: #51ADDA;
+}
 .orange {
   background-color: orange;
 }
@@ -95,15 +103,18 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  background-color: red;
+  background-color: #B5002D;
+  height: 16.7%;
 }
 
 .thailand-white {
   background-color: white;
+  height: 16.7%;
 }
 
 .thailand-blue {
-  background-color: blue;
+  background-color:  #2E2A4C;
+  height: 33.4%;
 }
 
 /* END QUESTION 2 */
@@ -130,9 +141,7 @@ h2 {
 }
 
 .mexico-img {
-  background-image: "eagle.png";
-  background-size: cover;
-  background-position: center;
+  background-color: white;
   max-width: 23.3%;
   align-self: center;
   padding: 5%;
