@@ -32,6 +32,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -94,15 +95,15 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: red;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: blue;
 }
 
 /* END QUESTION 2 */
@@ -129,7 +130,12 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  background-image: "eagle.png";
+  background-size: cover;
+  background-position: center;
+  max-width: 23.3%;
+  align-self: center;
+  padding: 5%;
 }
 
 .mexico-red {
@@ -149,17 +155,29 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin: 10px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin: 10px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 20px;
+}
+
+.greece-blue {
+  background-color: #0c5e96;
+}
+
+.greece-white {
+  background-color: #fff;
+}
+
+.greece-img {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1280px-Flag_of_Greece.svg.png");
 }
